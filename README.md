@@ -19,25 +19,16 @@ def deviazione_standard(lista):
     # Copilot suggerirà il corpo della funzione
 ```
 
-## 3. Comandi Rapidi `/`
-Nella chat Copilot puoi usare comandi come:
+## 3. Comandi Rapidi `/` in Copilot Chat
+Nel contesto di **GitHub Copilot Chat**, il simbolo `/` viene utilizzato per attivare comandi speciali che aiutano nella scrittura, spiegazione e correzione del codice. Esempi comuni:
 
-- `/explain` per spiegare una funzione ricorsiva
-- `/tests` per generare test parametrizzati
-- `/fix` per correggere errori in codice che usa librerie esterne
+- `/explain` Spiega il codice selezionato o incollato.
+- `/tests` Genera test automatici per una funzione o classe.
+- `/fix` Suggerisce correzioni per codice che presenta errori.
 
-## 4. Suggerimenti con `#` (Commenti)
-Scrivi un commento per descrivere una funzionalità più articolata:
+Questi comandi vanno scritti direttamente nella chat Copilot, seguiti dal codice o dalla richiesta desiderata.
 
-```python
-# Crea una funzione che restituisce tutti i numeri primi compresi tra due valori dati
-```
-Copilot suggerirà la funzione completa.
-
-## 5. Suggerimenti con `@` (Riferimenti)
-In alcuni editor, puoi usare `@` per richiamare rapidamente la documentazione di funzioni avanzate o moduli di terze parti.
-
-## 6. Completamento di File Interi
+## 4. Completamento di File Interi
 Scrivi solo l’intestazione di una classe che gestisce una rubrica di contatti e lascia che Copilot suggerisca il resto:
 
 ```python
@@ -47,11 +38,11 @@ class RubricaContatti:
     """
 ```
 
+---
 
+Questi esempi mostrano funzionalità base di GitHub Copilot utili durante un corso.
 
-Questi esempi mostrano funzionalità base  di GitHub Copilot utili durante un corso.
-
-## 7. Differenza tra Completamento Inline e Copilot Chat
+## 5. Differenza tra Completamento Inline e Copilot Chat
 
 ### Completamento Inline (Ghost Text)
 - **Cos’è:** Suggerimenti che appaiono direttamente nel codice mentre scrivi (testo grigio chiaro).
